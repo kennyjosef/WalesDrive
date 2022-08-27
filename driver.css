@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color: #222222;
+    font-family: 'Nunito';
+    font-style: normal;
+
+}
+
+.logo{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+    .logo  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+.head{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1064 ;
+    background: #761C78;
+}
+.personal_info{
+    width: 1306px;
+    background: rgba(249, 249, 249, 0.5);
+    border-radius: 20px;
+    margin: auto;
+    margin: 70px 69px 54px 69px;
+    padding: 24px 0px 50px 30px;
+}
+.personal_info h3{
+    padding-bottom: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    
+}
+.personal_info label, 
+.personal_info p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 8px;
+    
+}
+.details_one{
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:16px;
+    padding-bottom:25px;
+}
+#female{
+    margin-left: 30px;
+}
+#name{
+    padding-left: 10px;
+    width: 850px;
+    height: 54px;
+    outline: none;
+}
+.dob{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.dob div{
+}
+#date,#month, #year{
+    width: 150px;
+    height: 45px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+#month, #year{
+    
+    margin-left: 20px;
+}
+.idcard{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+.idcard input{
+    width: 200px;
+    height: 45px;
+
+}
+.idcard label{
+    padding-bottom: 8px;
+}
+.address input{
+    width: 850px;
+    height: 45px;
+
+}
+.address label{
+    padding-bottom: 8px;
+}
+.idcard ::placeholder{
+    text-align: end;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.employment_info{
+    width: 1306px;
+    background: rgba(249, 249, 249, 0.5);
+    border-radius: 20px;
+    margin: auto;
+    margin: 70px 69px 54px 69px;
+    padding: 24px 0px 50px 30px;
+}
+.employment_info h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    padding-bottom: 32px;
+}
+.employment_status{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+.employment_info h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 32px;
+
+}
+.job_status{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.job_status input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+}
+.credential_text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 32px;
+    width: 850px;
+}
+.credentials{
+    width: 850px;
+    height: 150px;
+    margin-top: 12px;
+}
+/* Vechicle info */
+.vehicle_info{
+    width: 1306px;
+    background: rgba(249, 249, 249, 0.5);
+    border-radius: 20px;
+    margin: 70px 69px 54px 69px;
+    padding: 24px 0px 50px 30px;
+    border: 1px solid red;
+}
+.vehicle_info h3{
+    
+}
+.btn button{
+    width: 220px;
+    height: 60px;
+    text-align: center;    
+    background: #200937;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    
+    .personal_info{
+        width: 100%;
+        margin: auto; 
+        margin: 0px;
+        padding-right: 40px;
+        padding-left: 60px;
+    }
+    .logo{
+        padding: 30px;
+    }
+    .personal_info h3{
+        font-size: 20px;
+    }
+    .details{
+        width: 100%;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: left;
+
+    }
+    .details_one{
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+        align-items: flex-start;
+
+    }
+
+    #name{
+        max-width: 100%;
+        margin-bottom: 10px;
+
+    }
+    .address input{
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    .idcard{
+        flex-direction: column;
+        padding-top: 20px; 
+        width: 100%;
+    }
+    .sex{
+        margin-bottom: 20px;
+    }
+    .dob{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .dob div{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 0;
+    }
+    #date{
+        margin-top: 10px;
+        width: 200px;
+    }
+    #month, #year{
+        width:200px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .idcard label{
+        margin-bottom: 10px;
+    }
+}

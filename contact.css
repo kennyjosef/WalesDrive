@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+section{
+    background-image: url(./images/cBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.for_nav{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-left: 69px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: auto;
+    height: auto;
+    font-size: 18px;
+    list-style-type: none;
+    width: 50%;
+    
+}
+
+.menu li {
+    margin: 0;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar-toggle{
+    display: none;
+}
+.show{
+    display: none;
+}
+.close{
+    display: none;
+}
+
+.logo h3{
+    color: white;
+}
+.contact_hero{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+.contact_hero h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.contact_hero p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF
+}
+
+ .contact_form{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.item1{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.item1 input{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: 0.3px solid #663399;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.item2{
+    width: 700px;
+    margin: auto;
+    padding-left:  20px ;
+}
+.item2 input{
+    width: 660px;
+    padding-left: 10px;
+    outline: none;
+    border: 0.3px solid #663399;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.item2 #companyName{
+    height: 50px;
+    margin-bottom: 24px;
+}
+.item2 #message{
+    height: 150px;
+    margin-bottom: 24px;
+}
+label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    
+}
+.btn{
+    text-align: center;
+}
+form button{
+    width: 200px;
+    height: 60px;
+    background: #200937;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+/* contact footer */
+ footer{
+    width: 100%;
+    background: #FCF9FF;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:70px ;
+    padding-bottom: 100px;
+}
+
+footer div h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+footer div h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+footer div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    padding-bottom: 12px;
+}
+.footer_text p{
+    width: 154px;
+}
+.pink{
+    display: none;
+    height: 30px;
+    width: 100%;
+    background: #761C78;
+} 
+@media screen and (max-width:768px) {
+    .for_nav{
+        width: 100%;
+        background-color: #200937;
+        position: fixed;
+        top: 0;
+
+        
+    }
+    .navbar{
+        display: block;
+        background-color: #200937;
+        width: 100%;
+        padding: 30px 30px 40px 30px;
+        justify-content: space-between;
+        height: auto;
+    }
+    .navbar-toggle{
+        display: block;
+       }
+    .menu{
+        display: none;
+        line-height: 100px;
+        height: 100vh;
+        width: auto;
+        list-style-type: none;
+        font-size: 30px;
+        background-color: #200937;
+    }
+    .menu li{
+        text-align: center;
+        margin: 15px auto;
+    }
+    .menu li a{
+        text-decoration: none;
+        color:#FFFFFF;
+    }
+    .dont_show{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+    
+    .no_show{
+        display: none;
+    }
+    
+    .logo-inactive {
+        visibility: hidden;
+    }
+    
+    .close-times {
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 80px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+   
+    .navbar-toggle {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .navbar-toggle img{
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .contact_form{
+        width: 80%;
+    }
+    .contact_hero{
+        margin-top: 90px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact_hero h3{
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .contact_form p{
+        max-width: 100%;
+        text-align: center;
+        line-height: 24px;
+    }
+    .item1{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .item1 input{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .item2{
+        width: 100%;
+        padding-right: 20px;
+        margin-top: 0;
+    }
+    .item2 input{
+        width: 100%;
+        margin-top: 0px;
+    }
+    form button{
+        max-width: 100%;
+    }
+    .item2 #companyName{
+        margin-bottom: 20px;
+    }
+    .item2 #message{
+        margin-bottom: 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+    }
+    footer div{
+        width: 100%;
+        padding:  0px 20px;
+        
+    }
+    footer div h3{
+        text-align: center;
+
+    }
+    footer div p{
+        text-align: center;
+        padding-bottom: 6px;
+
+    }
+    .footer_text p{
+        max-width: 200px;
+        margin: auto;
+    }
+    .pink{
+        display: block;
+    }
+   
+}
