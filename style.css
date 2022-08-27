@@ -410,6 +410,9 @@ footer{
         color: white;
 
     }
+    .logo h3{
+        color: #ffffff;
+    }
     .show{
         display: block;
     }

@@ -33,8 +33,9 @@
     background: rgba(249, 249, 249, 0.5);
     border-radius: 20px;
     margin: auto;
-    margin: 70px 69px 54px 69px;
+    margin: 120px 69px 54px 69px;
     padding: 24px 0px 50px 30px;
+
 }
 .personal_info h3{
     padding-bottom: 32px;
@@ -175,7 +176,7 @@
     border-radius: 20px;
     margin: 70px 69px 54px 69px;
     padding: 24px 0px 50px 30px;
-    border: 1px solid red;
+    border:  1px solid black solid red;
 }
 .vehicle_info h3{
     
@@ -200,15 +201,17 @@
     .personal_info{
         width: 100%;
         margin: auto; 
-        margin: 0px;
+        margin: 90px 0px 0px 0px;
         padding-right: 40px;
         padding-left: 60px;
     }
     .logo{
-        padding: 30px;
+        padding-left: 55px;
     }
     .personal_info h3{
         font-size: 20px;
+        text-align: center;
+        padding-bottom: 0;
     }
     .details{
         width: 100%;
@@ -227,32 +230,43 @@
 
     #name{
         max-width: 100%;
-        margin-bottom: 10px;
 
+    }
+    .address{
+        margin-top: 0;
     }
     .address input{
         max-width: 100%;
         margin-top: 10px;
     }
+    .address label{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
     .idcard{
         flex-direction: column;
         padding-top: 20px; 
         width: 100%;
+        margin-top: 0;
     }
     .sex{
-        margin-bottom: 20px;
+        margin-bottom: 8px;
     }
     .dob{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
+        margin-bottom: 0;
     }
     .dob div{
         display:flex;
         flex-direction: column;
         justify-content: space-around;
         margin-top: 0;
+    }
+    .dob p{
+        padding-bottom: 0;
     }
     #date{
         margin-top: 10px;
@@ -266,4 +280,46 @@
     .idcard label{
         margin-bottom: 10px;
     }
+    .employment_info{
+        width: 100%;
+        margin: 0px;
+        padding-right: 40px;
+        padding-left: 60px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .employment_info h3{
+        font-size: 20px;
+        text-align: center;
+        /* display: none; */
+    }
+    .employment_status{
+        flex-direction: column;
+        width: 100%;
+    }
+    .employment_status h5{
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .credential_text{
+        max-width: 100%;
+        padding-top: 10px;
+        text-align: left;
+        line-height: 20px;
+        font-size: 18px;
+        border:  1px solid black solid rebeccapurple;
+    }
+    .credentials{
+        width: 100%;
+    }
+    .job_status{
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+    }
+    .job_status div{
+        max-width: 100%;
+    }
+
 }
