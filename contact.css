@@ -211,7 +211,7 @@ footer div p{
        }
     .menu{
         display: none;
-        line-height: 100px;
+        line-height: 80px;
         height: 100vh;
         width: auto;
         list-style-type: none;

@@ -395,7 +395,7 @@ footer{
     .menu{
         display: none;
         list-style-type: none;
-        line-height: 100px;
+        line-height: 80px;
         width: auto;
         height: 100vh;
         font-size: 30px;
