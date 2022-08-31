@@ -186,6 +186,18 @@ header{
     flex-direction: column;
     align-items: center;
 }
+.display:hover{
+    background-color: #200937;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.display:hover p{
+    color: white;
+}
+.display:hover h3{
+    color: white;
+}
 .ride{
     width: 100%;
     background: #F9F3FF;
