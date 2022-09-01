@@ -388,6 +388,7 @@ footer{
 @media screen and (max-width:786px) {
     header{
         width: 100%;
+        background-color: #FFFFFF;
     }
     #navbar{
         display: block;
